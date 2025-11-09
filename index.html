@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Kitchen Club | Sophia Milano</title>
+  <meta name="description" content="Join the Kitchen Club and get your FREE Healthy Cooking Starter Kit – 5 easy Mediterranean recipes and a grocery list. Presented by cookbook author Sophia Milano.">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Reset some default browser styles */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: #FAF7F1;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    a { color: #415A47; text-decoration: none; }
+
+    /* Header */
+    .header {
+      background-color: #FAF7F1;
+      text-align: center;
+      padding: 24px 0;
+    }
+    .header img {
+      max-width: 160px;
+      height: auto;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      background-image: url('assets/hero.png');
+      background-size: cover;
+      background-position: center;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.7);
+      z-index: 1;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 600px;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      color: #3C503A;
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 24px;
+    }
+
+    /* About Section */
+    .about {
+      background-color: #FFFFFF;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .about h2 {
+      font-family: 'Playfair Display', serif;
+      color: #3C503A;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .about p {
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .about .btn-secondary {
+      display: inline-block;
+      background-color: #415A47;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .about .btn-secondary:hover {
+      background-color: #4f6d58;
+    }
+
+    /* Thank You Section (hidden by default) */
+    .thank-you {
+      display: none;
+      text-align: center;
+      padding: 80px 20px;
+      background-color: #FAF7F1;
+    }
+    .thank-you h2 {
+      font-family: 'Playfair Display', serif;
+      color: #415A47;
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+    .thank-you p {
+      font-size: 1.2rem;
+      color: #415A47;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #FAF7F1;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.8rem;
+      color: #777;
+    }
+    .social-icons {
+      margin-top: 12px;
+    }
+    .social-icons img {
+      width: 24px;
+      height: 24px;
+      margin: 0 8px;
+      opacity: 0.7;
+      transition: opacity 0.2s ease;
+    }
+    .social-icons img:hover {
+      opacity: 1;
+    }
+
+    /* Form override: style adjust for MailerLite embed */
+    .ml-form-embed {
+      font-family: 'Lato', sans-serif;
+      --primary-color: #415A47;
+      --primary-color-light: #4f6d58;
+      --font-family: 'Lato', sans-serif;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="https://www.amazon.com/stores/Sophia-Milano/author/B0FZ6KPQ56?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=4fcedb74-3d81-437f-870b-dd3cbe34d85a" target="_blank" title="Sophia Milano Amazon Author Page"><img src="assets/logo.png" alt="Sophia Milano"></a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Join the Kitchen Club</h1>
+      <p>Sign up to receive your FREE Healthy Cooking Starter Kit — 5 easy Mediterranean recipes + a simple grocery list to start your healthy journey today!</p>
+      <!-- MailerLite Embed Form -->
+      <div class="ml-embedded" data-form="vZ2t8h"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>Meet Sophia Milano</h2>
+    <p>Sophia Milano is a passionate cookbook author dedicated to helping people eat better, feel better, and rediscover the joy of Mediterranean living. Through her books and community, she shares simple, nourishing recipes that make healthy eating a lifestyle.</p>
+    <a href="https://www.amazon.com/stores/Sophia-Milano/author/B0FZ6KPQ56?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=4fcedb74-3d81-437f-870b-dd3cbe34d85a" target="_blank" class="btn-secondary">Visit My Amazon Author Page</a>
+  </section>
+
+  <!-- Thank You Section (success message) -->
+  <section class="thank-you" id="thank-you">
+    <h2>Thank you for joining the Kitchen Club! 🎉</h2>
+    <p>Check your inbox — your Healthy Cooking Starter Kit is on its way.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Sophia Milano — Healthy Cooking Made Simple</p>
+    <!-- Social icons placeholders (add links if desired) -->
+    <div class="social-icons">
+      <a href="https://www.amazon.com/stores/Sophia-Milano/author/B0FZ6KPQ56?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=4fcedb74-3d81-437f-870b-dd3cbe34d85a" target="_blank" title="Pinterest"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Pinterest"></a>
+      <a href="https://www.amazon.com/stores/Sophia-Milano/author/B0FZ6KPQ56?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=4fcedb74-3d81-437f-870b-dd3cbe34d85a" target="_blank" title="Amazon"><img src="https://cdn-icons-png.flaticon.com/512/732/732248.png" alt="Amazon"></a>
+    </div>
+  </footer>
+
+  <!-- MailerLite Universal -->
+  <script>
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+      .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+      (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+      ml('account', '1901825');
+  </script>
+  <!-- End MailerLite Universal -->
+</body>
+</html>
