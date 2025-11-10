@@ -133,36 +133,41 @@
       font-size: 0.85rem;
       color: #777;
     }
-    .social-icons {
-      margin-top: 12px;
-    }
-    .social-icons img {
-      width: 24px;
-      height: 24px;
-      margin: 0 8px;
-      opacity: 0.7;
-      transition: opacity 0.2s ease;
-    }
-    .social-icons img:hover {
-      opacity: 1;
-    }
 
-    /* Follow button */
-    .follow-btn {
-      background: #D7C5A5;
-      color: #222;
-      padding: 14px 28px;
-      border-radius: 8px;
+    /* Buttons */
+    .footer-btn {
+      display: inline-block;
+      background-color: #415A47;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: 600;
+      margin: 10px;
       font-family: 'Lato', sans-serif;
       font-size: 16px;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 18px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
       transition: all 0.3s ease;
+      text-decoration: none;
     }
-    .follow-btn:hover {
+    .footer-btn:hover {
+      background-color: #4f6d58;
+      transform: translateY(-2px);
+    }
+
+    .footer-btn-light {
+      display: inline-block;
+      background: #D7C5A5;
+      color: #222;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: bold;
+      margin: 10px;
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .footer-btn-light:hover {
       background: #ceb993;
       transform: translateY(-2px);
     }
@@ -185,7 +190,7 @@
 
   <!-- Header -->
   <header class="header">
-    <a href="https://www.amazon.com/stores/Sophia-Milano/author/B0FZ6KPQ56?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=4fcedb74-3d81-437f-870b-dd3cbe34d85a" 
+    <a href="https://www.amazon.com/stores/Sophia-Milano/author/B0FZ6KPQ56" 
        target="_blank" title="Sophia Milano Amazon Author Page">
        <img src="assets/logo.png" alt="Sophia Milano">
     </a>
@@ -196,7 +201,6 @@
     <div class="hero-content">
       <h1>Join the Kitchen Club</h1>
       <p>Sign up to receive your FREE Healthy Cooking Starter Kit — 5 easy Mediterranean recipes + a simple grocery list to start your healthy journey today!</p>
-      <!-- MailerLite Embed -->
       <div class="ml-embedded" data-form="vZ2t8h"></div>
     </div>
   </section>
@@ -205,8 +209,16 @@
   <section class="about">
     <h2>Meet Sophia Milano</h2>
     <p>Sophia Milano is a passionate cookbook author dedicated to helping people eat better, feel better, and rediscover the joy of Mediterranean living. Through her books and community, she shares simple, nourishing recipes that make healthy eating a lifestyle.</p>
-    <a href="https://www.amazon.com/stores/Sophia-Milano/author/B0FZ6KPQ56?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=4fcedb74-3d81-437f-870b-dd3cbe34d85a" 
+    <a href="https://www.amazon.com/stores/Sophia-Milano/author/B0FZ6KPQ56" 
        target="_blank" class="btn-secondary">Visit My Amazon Author Page</a>
+
+    <!-- New Pinterest Button -->
+    <div>
+      <a href="https://it.pinterest.com/sophiamilanoofficial/?utm_source=landing&utm_medium=github&utm_campaign=pinterest_footer" 
+         target="_blank" rel="noopener" class="footer-btn-light">
+        🌿 Follow on Pinterest
+      </a>
+    </div>
   </section>
 
   <!-- Thank You -->
@@ -218,26 +230,6 @@
   <!-- Footer -->
   <footer class="footer">
     <p>© 2025 Sophia Milano — Healthy Cooking Made Simple</p>
-
-    <!-- Social icons -->
-    <div class="social-icons">
-      <a href="https://it.pinterest.com/sophiamilanoofficial/?utm_source=landing&utm_medium=github&utm_campaign=pinterest_footer" 
-         target="_blank" title="Pinterest">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Pinterest">
-      </a>
-      <a href="https://www.amazon.com/stores/Sophia-Milano/author/B0FZ6KPQ56?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=4fcedb74-3d81-437f-870b-dd3cbe34d85a" 
-         target="_blank" title="Amazon Author Page">
-        <img src="https://cdn-icons-png.flaticon.com/512/732/732248.png" alt="Amazon">
-      </a>
-    </div>
-
-    <!-- Follow on Pinterest button -->
-    <div>
-      <a href="https://it.pinterest.com/sophiamilanoofficial/?utm_source=landing&utm_medium=github&utm_campaign=pinterest_footer" 
-         target="_blank" rel="noopener" class="follow-btn">
-        🌿 Follow on Pinterest
-      </a>
-    </div>
   </footer>
 
   <!-- MailerLite Universal -->
@@ -251,3 +243,4 @@
 
 </body>
 </html>
+
