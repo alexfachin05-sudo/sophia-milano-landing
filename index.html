@@ -102,9 +102,30 @@
       border-radius: 6px;
       font-weight: 600;
       transition: background-color 0.3s ease;
+      margin: 10px;
     }
     .about .btn-secondary:hover {
       background-color: #4f6d58;
+    }
+
+    /* Pinterest Button */
+    .footer-btn-light {
+      display: inline-block;
+      background: #D7C5A5;
+      color: #222;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: bold;
+      margin: 10px;
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .footer-btn-light:hover {
+      background: #ceb993;
+      transform: translateY(-2px);
     }
 
     /* Thank You (hidden) */
@@ -132,44 +153,6 @@
       padding: 40px 20px;
       font-size: 0.85rem;
       color: #777;
-    }
-
-    /* Buttons */
-    .footer-btn {
-      display: inline-block;
-      background-color: #415A47;
-      color: #fff;
-      padding: 12px 24px;
-      border-radius: 6px;
-      font-weight: 600;
-      margin: 10px;
-      font-family: 'Lato', sans-serif;
-      font-size: 16px;
-      transition: all 0.3s ease;
-      text-decoration: none;
-    }
-    .footer-btn:hover {
-      background-color: #4f6d58;
-      transform: translateY(-2px);
-    }
-
-    .footer-btn-light {
-      display: inline-block;
-      background: #D7C5A5;
-      color: #222;
-      padding: 12px 24px;
-      border-radius: 6px;
-      font-weight: bold;
-      margin: 10px;
-      font-family: 'Lato', sans-serif;
-      font-size: 16px;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-    .footer-btn-light:hover {
-      background: #ceb993;
-      transform: translateY(-2px);
     }
 
     /* MailerLite override */
@@ -209,16 +192,14 @@
   <section class="about">
     <h2>Meet Sophia Milano</h2>
     <p>Sophia Milano is a passionate cookbook author dedicated to helping people eat better, feel better, and rediscover the joy of Mediterranean living. Through her books and community, she shares simple, nourishing recipes that make healthy eating a lifestyle.</p>
+
+    <!-- Amazon Author Button -->
     <a href="https://www.amazon.com/stores/Sophia-Milano/author/B0FZ6KPQ56" 
        target="_blank" class="btn-secondary">Visit My Amazon Author Page</a>
 
-    <!-- New Pinterest Button -->
-    <div>
-      <a href="https://it.pinterest.com/sophiamilanoofficial/?utm_source=landing&utm_medium=github&utm_campaign=pinterest_footer" 
-         target="_blank" rel="noopener" class="footer-btn-light">
-        🌿 Follow on Pinterest
-      </a>
-    </div>
+    <!-- Pinterest Button -->
+    <a href="https://it.pinterest.com/sophiamilanoofficial/?utm_source=landing&utm_medium=github&utm_campaign=pinterest_footer" 
+       target="_blank" rel="noopener" class="footer-btn-light">Follow on Pinterest</a>
   </section>
 
   <!-- Thank You -->
@@ -243,4 +224,3 @@
 
 </body>
 </html>
-
